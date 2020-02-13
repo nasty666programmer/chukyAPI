@@ -1,0 +1,65 @@
+[id = chucky] {
+    content: '';
+    position: relative;
+    bottom: -8px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.cn-joking-admin {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 800px;
+	padding: 10px 15px;
+	margin: auto;
+}
+
+.cn-joking-admin .cn-form-conrol {
+	max-width: 180px;
+	width: 100%;
+	display: block;
+}
+
+.cn-joking-admin .cn-btn {
+	max-width: 100px;
+	width: 100%;
+	margin: 10px auto;
+	display: block;
+	padding: 3px 8px;
+	min-height: 46px;
+	cursor: pointer;
+}
+
+[id = jokeWrapper] div {
+	display: flex;
+    min-height: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 3px solid #eee;
+    border-radius: 7px;
+    box-shadow: 8px 8px 10px -6px #808080;
+}
+
+[id = jokeWrapper] img {
+    margin: auto 0;
+    max-width: 20%;
+    height: auto;
+}
+
+[id = jokeWrapper] span {
+    padding: 10px;
+	width: 80%;
+	border-bottom: 2px solid #eee;
+	text-align: justify;
+}
+
+[id = jokeWrapper] small {
+    width: 100%;
+	text-align: right;
+    margin-top: 5px;
+	font-style: italic;
+}

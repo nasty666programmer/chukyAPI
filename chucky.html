@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chucky</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="chucky.js" defer></script>
+	<script type="text/javascript" src="main.js" defer></script>
+</head>
+<body>
+	<article class="cn-joking-admin">
+		<section>
+			<h3>Get Random Joke</h3>
+			<select id="categoryList" class="cn-form-conrol">
+				<option value="">---</option>
+			</select>
+			<button id="getJokeBtn" class="cn-btn">Get Joke</button>
+		</section>
+		<div id="chucky"></div>
+		<section>
+			<h3>Search jokes</h3>
+			<input id="search" type="search" class="cn-form-conrol">
+			<button id="searchJokesBtn" class="cn-btn">Search Jokes</button>
+		</section>
+	</article>
+
+	<section id="jokeWrapper"></section>
+</body>
+</html>
